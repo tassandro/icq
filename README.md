@@ -1,2 +1,2 @@
-# icq
-Exercícios da disciplina de Introdução à computação quântica
+# ICQ
+Exercícios resolvidas da disciplina de Introdução à computação quântica
