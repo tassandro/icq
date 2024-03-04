@@ -35,24 +35,33 @@ c3 = get_complex_number()
 # a) Comutatividade na soma
 # c1 + c2 = c2 + c1
 print("\nComutatividade na soma:")
-print(c1 + c2 == c2 + c1)
+print(c1 + c2)
+print(c2 + c1)
+print((c1+c2)==(c2+c1))
 
 # a) Comutatividade na multiplicação
 # c1 × c2 = c2 × c1
 print("\nComutatividade na multiplicação:")
+print(c1 * c2)
+print(c2 * c1)
 print(c1 * c2 == c2 * c1)
 
 # b) Associatividade na soma
 # (c1 + c2) + c3 = c1 + (c2 + c3)
 print("\nAssociatividade na soma:")
-print((c1 + c2) + c3 == c1 + (c2 + c3))
+print((c1 + c2) + c3)
+print(c1 + (c2 + c3))
 
 # b) Associatividade na multiplicação
 # (c1 × c2) × c3 = c1 × (c2 × c3)
 print("\nAssociatividade na multiplicação:")
+print((c1 * c2) * c3)
+print(c1 * (c2 * c3))
 print((c1 * c2) * c3 == c1 * (c2 * c3))
 
 # c) Distributividade
 # c1 × (c2 + c3) = (c1 × c2) + (c1 × c3)
 print("\nDistributividade:")
+print(c1 * (c2 + c3))
+print((c1 * c2) + (c1 * c3))
 print(c1 * (c2 + c3) == (c1 * c2) + (c1 * c3))
